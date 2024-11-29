@@ -2,22 +2,11 @@ package org.example;
 
 
 import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
+
 import java.sql.SQLException;
 import java.util.*;
-/*
-para este primer ejercicio necesitamos
-1. establecer conexion con DB
-2. bucle repetitivo que corta cuando se introduce 0
-3. comprobar si la empresa existe o no. metodo existeEmpresa()
-4. mostrar datos metodo datosEmpresa()
- */
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-
+//Ejercicio1
 public class Main {
     public static void main(String[] args) throws SQLException {
 
