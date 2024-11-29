@@ -62,7 +62,7 @@ public class Empresa {
 
                 System.out.println("-----------------------------------------------------------------------------------");
 
-                Departamento.datosDepartamento (c, codEmpre);
+                Departamento.datosDepartamento(c, codEmpre);
 
             } else {
                 System.out.println("No se encontró la empresa con código: " + codEmpre);
