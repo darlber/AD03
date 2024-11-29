@@ -40,6 +40,7 @@ public class Main {
                 }
 
                 if (opt == 0) {
+                    sn.close();
                     break;
                 }
                 if (!Empresa.existeEmpresa(c, opt)) {
