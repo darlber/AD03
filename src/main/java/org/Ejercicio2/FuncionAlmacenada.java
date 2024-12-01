@@ -232,6 +232,7 @@ private static int contadorPruebas = 1;
 
 
         s.execute(procedure);
+        s.close();
 
     }
 
